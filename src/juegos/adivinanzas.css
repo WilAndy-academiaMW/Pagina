@@ -1,0 +1,73 @@
+.adivina {
+    width: 450px;
+    height: 690px;
+    margin: auto;
+    background-color: #ff6b6b;
+    position: relative;
+  }
+  
+.img-adivinanzas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 720px;
+}
+.adivinanza{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 277px;
+  transform: translate(-44%, 29%);
+  text-align: center;
+  font-family:"New Amsterdam", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.input{
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  width: 226px;
+  height: 40px;
+  border-radius: 15px;
+  transform: translate(-44%, -1%);
+  border: none;
+  background-color: transparent;
+  outline: none;
+  text-align: center;
+  font-family:"New Amsterdam", sans-serif;
+  color: black;
+  text-shadow: 1px -0px red;
+  font-size: 28px;
+}
+.resultado{
+  position: absolute;
+  
+  top: 52%;
+  left: 30%;
+  width: 226px;
+  height: 40px;
+  font-size: 25px;
+  font-family:"New Amsterdam", sans-serif;
+  transform: translate(-2%, -175%);
+  text-align: center;
+}
+.boton-adi{
+  position: absolute;
+  top: 84%;
+  left: 28.5%;
+  width: 226px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 1px -0px red;
+}
+
+.icon{
+background-color: none;
+}
