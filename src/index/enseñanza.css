@@ -1,0 +1,83 @@
+.enseñanza{
+    max-width: 1200px;
+    height: 500px;
+    
+    margin: auto;
+    color: white;
+    display: flex;
+}
+.img-enseñanza{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.img-enseñanza img{
+    width: 80%;
+    height: 90%;
+}
+.aside-enseñanza{
+    width: 50%;
+    height: 100%;
+}
+.titulos-ens{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.titulos-ens h2{
+    color: orange;
+}
+.titulos-ens h1{
+    font-family:"New Amsterdam", sans-serif;
+    font-size: 30px;
+}
+.menu-ens{
+    width: 100%;
+    height: 50%;
+}
+.menu-ens aside{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.menu-ens aside .img-1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-ens aside .img-1 img{
+    width: 80%;
+    height: 80%;
+}
+
+.menu-ens aside .h1-1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.menu-ens aside .h1-1 h3{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+.menu-ens aside .boton-1{
+   border-radius: 15px;  
+   width: 20%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;  
+}
+.menu-ens aside .boton-1{
+    width: 100px;
+    height: 50px;
+}

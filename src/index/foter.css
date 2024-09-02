@@ -1,0 +1,12 @@
+footer{
+    max-width: 1200px;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    
+}
