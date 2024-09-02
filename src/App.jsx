@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Comienzo } from './assets/Comienzo';
-import { Explorador } from './assets/explorador/explorador';
+import { Explorador } from './assets/explorador/Explorador';
 import Paginas from './assets/paginas/paginas';
 
 
