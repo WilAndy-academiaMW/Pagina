@@ -10,11 +10,11 @@ export const Nav = () => {
     <div>
 <nav className='Nav'>
         <div id="navegacion">
-        <div className="nav1"><a class='link' ><img src={Perfil} alt="" /></a></div>
+        <Link className="nav1" to='/'><a class='link' ><img src={Perfil} alt="" /></a></Link>
     
         <div className="nav3">
             <div className="redes">
-                <Link className='link'><FaTiktok style={{ color:'red'}} className="icon" /></Link>
+                <Link className='link' to='/Paginas'><FaTiktok style={{ color:'red'}} className="icon" /></Link>
                 <Link className='link2' to='/explorador'><FaInstagram style={{ color: 'red' }} className="icon" /></Link>
             </div>
         </div>

@@ -5,7 +5,6 @@ export const Comienzo = () => {
   return (
     <>
      <Nav
-     
      />
     </>
   )
