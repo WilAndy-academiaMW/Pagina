@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
 import Perfil from '../../img/Nav/perfil.png'
+
+import { FaTiktok } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 export const Nav = () => {
   return (
     <div>
@@ -11,8 +14,8 @@ export const Nav = () => {
     
         <div className="nav3">
             <div className="redes">
-                <Link className='link'>+</Link>
-                <Link className='link2'>+</Link>
+                <Link className='link'><FaTiktok style={{ color:'red'}} className="icon" /></Link>
+                <Link className='link2' to='/explorador'><FaInstagram style={{ color: 'red' }} className="icon" /></Link>
             </div>
         </div>
 

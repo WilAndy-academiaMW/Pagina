@@ -26,6 +26,7 @@ a{
 .link{
     width: 50%;
     height: 100%;
+    cursor: pointer;
 }
 .link img{
     width: 50%;
