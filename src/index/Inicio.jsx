@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav } from '../assets/Nav'
 import Logo from '../img/Nav/perfil.png'
-import { Articulos, Enseñanza, Footer, Header,Mente,Seccion,Aticle } from './indices'
+import { Articulos,Seccion,Aticle, RedesS,  } from './indices'
 import { Encabezado } from '../El saber/elSaber'
 import HeaderIMG from '../img/elsaber/Encabezado.jpg'
 
@@ -9,7 +9,7 @@ import HeaderIMG from '../img/elsaber/Encabezado.jpg'
 export const Inicio = () => {
   return (
     <>
-       <Nav
+   {/*     <Nav
        Logo={Logo}
        Stilo={'red'}
        Stilo2={'red'}
@@ -21,16 +21,9 @@ export const Inicio = () => {
        />
         <Aticle/>
         <Seccion/>
-        <Articulos
-        
-        />
-      {/*
-     
-      
        
-       <Enseñanza/>
-       <Mente/>*/}
-       
+        <Articulos/>*/}
+         <RedesS/>
     </>
   )
 }

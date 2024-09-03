@@ -61,7 +61,7 @@ aside p{
 }
 aside button{
     width: 50%;
-height: 10%;
+     height: 10%;
     height: 30px;
     border-bottom: 15px red;
     margin-top: 10px;
@@ -72,3 +72,8 @@ height: 10%;
     border-style: none;
     text-align: center;
 }
+@media (max-width: 800px){
+   .articulos{
+    width: 100%;
+   }
+  }

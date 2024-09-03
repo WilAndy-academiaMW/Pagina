@@ -2,7 +2,7 @@
 import './elsaber.css'
 export const Encabezado =({ImgH,TituloH, ParrafoH})=>{
   return(
-    <main className="content">
+    <main className="content" >
     <div className="hero" id="hero">
      <img style={{width:'100%', height:'100%'}} src={ImgH} alt="IMAGEN DE PORTADA" />
 <div className="hero-content">

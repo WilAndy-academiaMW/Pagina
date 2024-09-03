@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from './Nav/Nav'
-import { Articulos, Aticle, Enseñanza, Intere, Seccion } from '../index/indices'
+import { Articulos, Aticle, Desarrollop, Enseñanza, Footer, Intere, RedesS, Seccion } from '../index/indices'
 import { Encabezado } from '../El saber/elSaber'
 import hieder from '../img/elsaber/Encabezado.jpg'
 
@@ -16,10 +16,12 @@ export const Comienzo = () => {
      /> 
     <Aticle/>
     <Seccion/>
-    <Articulos/>
+    <Desarrollop/>
     <Enseñanza/>
+   
+    <RedesS/>
     <Intere/>
-    
+    <Footer/>
     </>
   )
 }
