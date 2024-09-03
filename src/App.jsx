@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Comienzo } from './assets/Comienzo';
 import { Explorador } from './assets/explorador/Explorador';
 
-import { Historia } from './assets/Historias/historia';
 import { Adivinanza } from './juegos/adivinanza';
+import { Historia } from './assets/Historias/historia';
 
 
 
