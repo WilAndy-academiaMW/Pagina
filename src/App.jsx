@@ -3,7 +3,7 @@ import { Comienzo } from './assets/Comienzo';
 import { Explorador } from './assets/explorador/Explorador';
 
 import { Adivinanza } from './juegos/adivinanza';
-import { Historia } from './assets/Historias/historia';
+import { Historia } from './assets/Historias/Historia';
 
 
 

@@ -11,7 +11,7 @@ export const Comienzo = () => {
      />
      <Encabezado
      ImgH={hieder}
-     TituloH={'Cosas que aprendemos hablame rata'}
+     TituloH={'Cosas que aprendemos hablame rata todo bien'}
      ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
      /> 
     <Aticle/>
