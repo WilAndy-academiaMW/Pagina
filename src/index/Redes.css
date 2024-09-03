@@ -48,7 +48,12 @@
       }
   }
   @media (max-width: 600px){
+    .social-media-container{
+      flex-direction: column;
+    }
     .social-media-item {
         font-size: 15px;
       }
   }
+
+  

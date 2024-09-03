@@ -15,8 +15,7 @@ export const Comienzo = () => {
      ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
      /> 
     <Aticle/>
-    <Seccion/>
-    <Desarrollop/>
+    
     <Enseñanza/>
    
     <RedesS/>

@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Comienzo } from './assets/Comienzo';
 import { Explorador } from './assets/explorador/Explorador';
-import Paginas from './assets/paginas/paginas';
+
+import { Historia } from './assets/Historias/historia';
+import { Adivinanza } from './juegos/adivinanza';
 
 
 
@@ -11,7 +13,8 @@ function App() {
      <Routes> 
        <Route path='/' element={<Comienzo/>} />
        <Route path='/explorador' element={<Explorador/>} />
-       <Route path='/Paginas' element={<Paginas/>} />
+       <Route path='/Adivinanza' element={<Adivinanza/> }/>
+       <Route path='/Historia' element={<Historia/>} />
      </Routes>  
   </BrowserRouter>
    

@@ -1,7 +1,6 @@
 .enseñanza{
     max-width: 1200px;
     height: 500px;
-    
     margin: auto;
     color: white;
     display: flex;
@@ -67,8 +66,6 @@
     font-size: 15px;
     color: aliceblue;
 }
-
-
 .menu-ens aside .boton-1{
    border-radius: 15px;  
    width: 20%;
@@ -81,3 +78,154 @@
     width: 100px;
     height: 50px;
 }
+@media (max-width: 1024px){
+    .enseñanza {
+      width: 95%;
+      margin-left: 2.5%;
+      height: 500px;
+      margin: auto;
+      color: white;
+      display: flex;
+      
+  }
+  .img-enseñanza {
+ display: flex;
+ align-items: baseline;
+ justify-content: center;
+  }
+  .img-enseñanza img{
+    width: 80%;
+    height: 70%;
+  }
+  .titulos-ens h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 25px;
+}
+.titulos-ens p{
+  
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.menu-ens aside {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+
+.menu-ens aside .h1-1 h3 {
+  font-size: 17px;
+  color: aliceblue;
+  text-align: center;
+}
+  }
+@media (max-width: 860px){
+    .enseñanza {
+      width: 95%;
+      margin-left: 2.5%;
+      height: 500px;
+      margin: auto;
+      color: white;
+      display: flex;
+      
+  }
+  .img-enseñanza {
+ display: flex;
+ align-items: baseline;
+ justify-content: center;
+  }
+  .img-enseñanza img{
+    width: 80%;
+    height: 70%;
+  }
+  .titulos-ens h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 25px;
+}
+.titulos-ens p{
+  
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.menu-ens aside {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+
+.menu-ens aside .h1-1 h3 {
+  font-size: 17px;
+  color: aliceblue;
+  text-align: center;
+}
+  }
+  @media (max-width: 600px){
+    .enseñanza {
+      width: 95%;
+      margin-left: 2.5%;
+      height: auto;
+      margin: auto;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .img-enseñanza {
+ display: flex;
+ width: 100%;
+ align-items: baseline;
+ justify-content: center;
+ margin-bottom: 20px;
+  }
+  .img-enseñanza img{
+    width: 80%;
+    height: 70%;
+  }
+  .titulos-ens h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.titulos-ens p{
+  
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.menu-ens aside {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+.aside-enseñanza {
+    width: 100%;
+    height: 100%;
+}
+.menu-ens aside .h1-1 h3 {
+  font-size: 17px;
+  color: aliceblue;
+  text-align: center;
+}
+.titulos-ens h2 {
+    color: orange;
+    text-align: center;
+}
+.menu-ens {
+    height: 300px;
+    margin-top: 10px;
+}
+
+.menu-ens aside .h1-1{
+    align-items: center;
+}
+.aside button{
+    font-size: 10px;
+}
+.menu-ens aside .boton-1{
+    height: 100%;
+}
+  }

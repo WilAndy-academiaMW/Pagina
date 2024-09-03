@@ -3,8 +3,9 @@ import './adivinanzas.css';
 import fondo from './fondo.png'
 import { GrStatusGood } from "react-icons/gr";
 import { MdErrorOutline } from "react-icons/md";
-import { Nav } from '../assets/Nav';
-import Perfil from '../img/Nav/perfil.png'
+import { Nav } from '../assets/Nav/Nav';
+
+
 
 export const Adivinanza = () => {
   const adivinanzas = [
@@ -60,11 +61,7 @@ export const Adivinanza = () => {
 
   return (
     <>
-     <Nav
-    Logo={Perfil}
-    Stilo={'red'}
-    Stilo2={'red'}
-    />
+    <Nav/>
     <div className="adivina">
       <img className='img-adivinanzas' src={fondo} alt="" />
         <p className='adivinanza'>{adivinanzas[indice].pregunta}</p>
