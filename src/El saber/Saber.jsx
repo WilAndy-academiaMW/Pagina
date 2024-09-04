@@ -1,22 +1,19 @@
 import React from 'react'
-import { Nav } from '../Nav/Nav'
-import { Encabezado } from '../../El saber/elSaber'
-import { Header2 } from '../Historias/paginas'
-import Portada from '../../img/Elexplorador/Portada.jpeg'
+import { Nav } from '../assets/Nav/Nav'
+import { Encabezado } from './elSaber'
+import Portada from '../img/Elexplorador/Portada.jpeg'
+import { Parejas2 } from '../assets/Historias/paginas'
 
-export const Explorador = () => {
+export const Saber = () => {
   return (
-    <>
+    <> 
     <Nav/>
-
     <Encabezado
       ImgH={Portada}
       TituloH={'Cosas que aprendemos hablame rata todo bien'}
       ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
     />
-    <Header2/>
-
-
+    <Parejas2/>
     </>
   )
 }

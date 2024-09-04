@@ -1,5 +1,10 @@
 
 import './elsaber.css'
+
+
+
+
+
 export const Encabezado =({ImgH,TituloH, ParrafoH})=>{
   return(
     <main className="content" >

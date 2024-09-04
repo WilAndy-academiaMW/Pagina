@@ -1,6 +1,6 @@
 .carousel {
-    width: 90%;
-    margin-left: 5%;
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,6 +12,7 @@
 
 .carousel-container {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
 }

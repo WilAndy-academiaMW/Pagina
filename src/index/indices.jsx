@@ -16,6 +16,7 @@ import Disciplina from '../img/index/Disciplina.webp'
 import Cualidades from '../img/index/cualidades.webp'
 import Mentalidad from '../img/index/mentalidad.webp'
 import foto from '../img/index/reyes-israel.webp'
+import { Amigos } from '../Temas de interes/Amigos'
 
 export const Header = ({wirh}) => {
   return (
@@ -53,7 +54,7 @@ export const Aticle =()=>{
         <p>Muchas historia que nos invitan a imitar lo que hicieron los siervos de dios del pasado</p>
         </div>
         <div className="feature">
-            <div class="feature-icon"><Link to="/Elexplorador">🚀</Link></div>
+            <div class="feature-icon"><Link to="/Explorador">🚀</Link></div>
             <h3>Desarrollo Personal</h3>
             <p>Adsorviendo todo el conocimiento posible para nuestro desarrollo como persona</p>
         </div>
@@ -127,7 +128,7 @@ export const Enseñanza =()=>{
                 <h3>Salmos Proverbios y esclesiaste </h3>
               </div>
               <div className="boton-1">
-              <button>ver mas</button>
+              <button><Link to='/Saber'>ver mas</Link></button>
               </div>
               </aside> 
               <aside> 
@@ -138,7 +139,7 @@ export const Enseñanza =()=>{
                 <h3> las parabolas de jesus</h3>
               </div>
               <div className="boton-1">
-              <button>ver mas</button>
+              <button><Link to='/Saber'>ver mas</Link></button>
               </div>
               </aside> 
               <aside> 
@@ -149,7 +150,7 @@ export const Enseñanza =()=>{
                 <h3> las cartas del nuevo testamento</h3>
               </div>
               <div className="boton-1">
-                <button>ver mas</button>
+              <button><Link to='/Saber'>ver mas</Link></button>
               </div>
               </aside> 
             </div>
@@ -199,28 +200,33 @@ export const Intere =()=>{
     IMG={foto}
     Parrafo={''}
     Titulo={'Vida familiar'}
+    Tema={'/Vidafamiliar'}
+    
     />
     <Interes
     IMG={foto}
     Titulo={'Crecimiento Personal'}
     Parrafo={''}
+    Tema={'/Crecimiento'}
     />
     <Interes
     IMG={foto}
     Titulo={'Amigos'}
     Parrafo={''}
+    Tema={'/Amigos'}
     />
    <Interes
     IMG={foto}
     Titulo={'Parejas'}
     Parrafo={''}
+    Tema={'/Parejas'}
     />
       </div>
     </section>
     </>
     )
 }
-const Interes =({IMG,Parrafo,Titulo})=>{
+const Interes =({IMG,Parrafo,Titulo,Tema})=>{
 return(
        <div className="topic-card">
        <img
@@ -234,9 +240,9 @@ return(
         <p className="topic-description">
           {Parrafo}
         </p>
-        <a href="https://jw-inspired.org/temas/vida-familiar" className="topic-link">
+        <Link to={Tema} className="topic-link">
           Leer más
-        </a>
+        </Link>
        </div>
       </div>
 )
