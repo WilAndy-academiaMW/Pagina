@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav } from '../assets/Nav/Nav'
 import { Encabezado } from '../El saber/elSaber'
-import Portada from '../img/Elexplorador/Portada.jpeg'
+import Portada from '../img/Elexplorador/portada.jpeg'
 import { Parejas2 } from '../assets/Historias/paginas'
 export const VidaFamiliar = () => {
   return (

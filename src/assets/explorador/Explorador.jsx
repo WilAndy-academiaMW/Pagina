@@ -2,7 +2,7 @@ import React from 'react'
 import { Nav } from '../Nav/Nav'
 import { Encabezado } from '../../El saber/elSaber'
 import { Header2 } from '../Historias/paginas'
-import Portada from '../../img/Elexplorador/Portada.jpeg'
+import Portada from '../../img/Elexplorador/portada.jpeg'
 
 export const Explorador = () => {
   return (

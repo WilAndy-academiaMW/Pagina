@@ -3,7 +3,7 @@ import { Nav } from '../Nav/Nav'
 import './carrusel.css'
 import { Header } from './paginas'
 import { Encabezado } from '../../El saber/elSaber'
-import Portada from '../../img/Elexplorador/Portada.jpeg'
+import Portada from '../../img/Elexplorador/portada.jpeg'
 
 export const Historia = () => {
   return (
