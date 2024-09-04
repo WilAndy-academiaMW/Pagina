@@ -8,15 +8,14 @@ export const Explorador = () => {
   return (
     <>
     <Nav/>
-
     <Encabezado
       ImgH={Portada}
-      TituloH={'Cosas que aprendemos hablame rata todo bien'}
-      ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
+      TituloH={'Desarrollo personal '}
+      ParrafoH={' Crecimiento personal a través de la sabiduría de la Biblia. Herramientas y consejos para transformar tu vida'}
     />
-    <Header2/>
-
-
+    <div style={{maxWidth:'1200px',margin:'auto', display:'flex', alignItems:'center', justifyContent:'center', height:'500px'}}>
+    <h1 style={ {}}>En proceso de creación</h1>
+    </div> 
     </>
   )
 }

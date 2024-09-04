@@ -1,9 +1,10 @@
 import React from 'react'
 import { Nav } from '../Nav/Nav'
 import './carrusel.css'
-import { Header } from './paginas'
+
 import { Encabezado } from '../../El saber/elSaber'
-import Portada from '../../img/Elexplorador/portada.jpeg'
+import Portada from '../../img/historias/portada.jpeg'
+import { HistoriasB } from './paginas'
 
 export const Historia = () => {
   return (
@@ -11,11 +12,10 @@ export const Historia = () => {
     <Nav/>
     <Encabezado
       ImgH={Portada}
-      TituloH={'Cosas que aprendemos hablame rata todo bien'}
-      ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
+      TituloH={'Historias Biblicas '}
+      ParrafoH={'¿Sabías que la Biblia está llena de historias increíbles? Sumérgete en ellas y descubre su mensaje.'}
     />
-    <Header
-    />
+    <HistoriasB/>
     
    
     </>

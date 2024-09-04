@@ -12,7 +12,9 @@ export const Parejas = () => {
       TituloH={'Cosas que aprendemos hablame rata todo bien'}
       ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
     />    
-    <Parejas2/>
+      <div style={{maxWidth:'1200px',margin:'auto', display:'flex', alignItems:'center', justifyContent:'center', height:'500px'}}>
+    <h1 style={ {}}>En proceso de creación</h1>
+    </div> 
     </>
   )
 }

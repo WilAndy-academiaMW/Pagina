@@ -1,7 +1,8 @@
 import React from 'react'
 import { Nav } from '../assets/Nav/Nav'
 import { Encabezado } from './elSaber'
-import Portada from '../img/Elexplorador/portada.jpeg'
+
+import portada from '../img/elsaber/elSaber.jpg'
 import { Parejas2 } from '../assets/Historias/paginas'
 
 export const Saber = () => {
@@ -9,11 +10,13 @@ export const Saber = () => {
     <> 
     <Nav/>
     <Encabezado
-      ImgH={Portada}
+      ImgH={portada}
       TituloH={'Cosas que aprendemos de algo bueno'}
       ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
     />
-    <Parejas2/>
+    <div style={{maxWidth:'1200px',margin:'auto', display:'flex', alignItems:'center', justifyContent:'center', height:'500px'}}>
+    <h1 style={ {}}>En proceso de creación</h1>
+    </div> 
     </>
   )
 }

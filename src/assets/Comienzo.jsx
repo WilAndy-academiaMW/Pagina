@@ -11,8 +11,8 @@ export const Comienzo = () => {
      />
      <Encabezado
      ImgH={hieder}
-     TituloH={'Cosas que aprendemos hablame rata todo bien'}
-     ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
+     TituloH={'Bienvenido al Hombre y Dios'}
+     ParrafoH={'Descubre la Palabra de Dios de una manera nueva. Sumérgete en estudios bíblicos y encuentra respuestas a tus preguntas.'}
      /> 
     <Aticle/>
     
