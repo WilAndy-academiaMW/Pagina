@@ -5,6 +5,7 @@ import './Portada.css';
 import './carrusel.css';
 import Imagen from '../../img/index/reyes-israel.webp';
 import Imgportada from '../../img/historias/portada.jpeg';
+import EstherONE from '../../img/historias/Esther/Esther.jpeg'
 
 export const HistoriasB = ({ img }) => {
   return (
@@ -12,7 +13,7 @@ export const HistoriasB = ({ img }) => {
       <h2>Historias Biblicas</h2>
       <div className="carousel-container">
         <Iten
-          img={Imagen}
+          img={EstherONE}
           titulo={'Esther'}
           parrafo={'La historia de una reina que salvó su pueblo'}
           historys={'/Esther'}
@@ -117,7 +118,7 @@ export const Parejas2 = ({ img }) => {
 const Iten = ({ img, titulo, parrafo, historys }) => {
   return (
     <div className="carousel-item">
-      <img src={img} alt="Poster de una serie de acción, estilo cinematográfico" />
+      <img style={{height:'200px'}} src={img} alt="Poster de una serie de acción, estilo cinematográfico" />
       <div className="item-info"> {/* Cambiado a className */}
         <h3>{titulo}</h3>
         <p>{parrafo}</p>

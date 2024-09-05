@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {  Cabeza } from '../Modelo';
 import { Nav } from '../../assets/Nav/Nav';
 import EstherIMG from '../../img/historias/Esther/EstherONE.webp';
+import { Footer } from '../../index/indices';
 
 export const Esther = () => {
   return (
@@ -11,6 +12,7 @@ export const Esther = () => {
       <Nav />
       <Cabeza img={EstherIMG} />
       <ArticleComponent />
+      
     </>
   );
 };
@@ -18,12 +20,9 @@ export const Esther = () => {
 const ArticleComponent = () => {
   return (
     <div className='body'>
-      <main>
+      <main className='.Amain'>
         <article>
-          <Item
-            img={EstherIMG}
-            
-          />
+         
           <ItemTEXT
           h1={'Lecciones de Esther'}
           h3={'¿Quién fue Esther?'}
@@ -54,16 +53,7 @@ const ArticleComponent = () => {
 
           </article>
       </main>
-      <aside className='aside'>
-        <h3>Artículos Populares</h3>
-        <ul>
-            <li><Link>10 Playas Secretas que Debes Visitar</Link></li>
-            <li><Link>Guía Definitiva para el Mochilero Moderno</Link></li>
-            <li><Link>Sabores del Mundo: Un Viaje Culinario</Link></li>
-        </ul>
-        <h3 className='h3Modelo'>Sobre el Autor</h3>
-        <p className='pmodelo'>Soy un apasionado viajero y escritor que ha recorrido más de 50 países. Mi misión es inspirar a otros a explorar el mundo y vivir aventuras inolvidables.</p>
-    </aside>
+      
     </div>
   );
 };

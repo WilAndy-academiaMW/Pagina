@@ -17,7 +17,7 @@
        
         text-align: center;
     }
-    main {
+    .Amain {
         flex: 1;
         padding: 1rem;
         border-top:2px solid red ;
@@ -44,6 +44,7 @@
     }
     .pmodelo {
         color: #444;
+        margin-bottom: 5px;
     }
     @media (max-width: 768px) {
         body {
