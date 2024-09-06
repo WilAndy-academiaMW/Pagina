@@ -7,10 +7,14 @@ import EstherIMG from '../../img/historias/Esther/EstherONE.webp';
 import { Footer } from '../../index/indices';
 import AdIframe from '../../publicidad/AdScript';
 import AdsterraAd from '../../publicidad/Baner';
-
+import { Helmet } from 'react-helmet';
 export const Esther = () => {
   return (
     <>
+     <Helmet>
+        <title>La Reina Ester: La valiente judía que salvó a su pueblo.</title>
+        <meta name="description" content="Descubre la fascinante historia de Ester, una joven judía que se convirtió en reina de Persia y usó su posición para proteger a su pueblo de una terrible masacre. " />
+      </Helmet>
       <Nav />
       <Cabeza img={EstherIMG} />
       <ArticleComponent />

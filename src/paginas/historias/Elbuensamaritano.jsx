@@ -1,5 +1,6 @@
 import React from 'react';
 import '../modelo.css';
+import { Helmet } from 'react-helmet';
 import {  Cabeza } from '../Modelo';
 import { Nav } from '../../assets/Nav/Nav';
 import SamaritanoIMG from '../../img/historias/Elbuensamaritano/1.webp';
@@ -11,6 +12,10 @@ import AdsterraAd from '../../publicidad/Baner';
 export const Elbuensamaritano = () => {
   return (
     <>
+    <Helmet>
+        <title>El buen samaritano</title>
+        <meta name="description" content="El Buen Samaritano: Parábola de Jesús sobre la compasión y el servicio al prójimo. Descubre el significado profundo de esta historia bíblica y cómo sus enseñanzas siguen siendo relevantes hoy en día. Aprende sobre la importancia de ayudar a los necesitados, sin importar nuestras diferencias." />
+      </Helmet>
       <Nav />
       <Cabeza img={SamaritanoIMG} />
       <ArticleComponent />
