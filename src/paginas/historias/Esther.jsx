@@ -75,7 +75,7 @@ const ItemTEXT =({ h1, h3, p })=>{
 <h1 className='HModelo'>{h1}</h1>
       <h3 className='h3Modelo'>{h3}</h3>
       <p className='pmodelo'>{p}</p>
-      <p className='pmodelo'>{p}</p>
+      
 </>
   )
 }

@@ -6,7 +6,7 @@ import './carrusel.css';
 import Imagen from '../../img/index/reyes-israel.webp';
 import Imgportada from '../../img/historias/portada.jpeg';
 import EstherONE from '../../img/historias/Esther/Esther.jpeg'
-
+import SamaritanoIMG from '../../img/historias/Elbuensamaritano/1.webp';
 export const HistoriasB = ({ img }) => {
   return (
     <div className="carousel">
@@ -17,6 +17,12 @@ export const HistoriasB = ({ img }) => {
           titulo={'Esther'}
           parrafo={'La historia de una reina que salvó su pueblo'}
           historys={'/Esther'}
+        />
+        <Iten
+          img={SamaritanoIMG}
+          titulo={'Elbuensamaritano'}
+          parrafo={'La historia de una reina que salvó su pueblo'}
+          historys={'/Elbuensamaritano'}
         />
       </div>
     </div>

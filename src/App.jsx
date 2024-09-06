@@ -9,6 +9,8 @@ import { CrecimientoPersonal } from './Temas de interes/CrecimientoPersonal';
 import { VidaFamiliar } from './Temas de interes/VidaFamiliar';
 import { Parejas } from './Temas de interes/Parejas';
 import { Esther } from './paginas/historias/Esther';
+import { Elbuensamaritano } from './paginas/historias/Elbuensamaritano';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path='/Vidafamiliar' element={<VidaFamiliar />} />
         <Route path='/Parejas' element={<Parejas />} />
         <Route path='/Esther' element={<Esther/>}/>
+        <Route path='/Elbuensamaritano' element={<Elbuensamaritano/>}/>
       </Routes>
     </BrowserRouter>
   );
