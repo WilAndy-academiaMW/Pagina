@@ -5,6 +5,8 @@ import {  Cabeza } from '../Modelo';
 import { Nav } from '../../assets/Nav/Nav';
 import EstherIMG from '../../img/historias/Esther/EstherONE.webp';
 import { Footer } from '../../index/indices';
+import AdIframe from '../../publicidad/AdScript';
+import AdsterraAd from '../../publicidad/baner';
 
 export const Esther = () => {
   return (
@@ -46,11 +48,12 @@ const ArticleComponent = () => {
           <Item
             img={EstherIMG}
           />
+          <AdIframe/>
           <ItemTEXT
           h3={'¿Qué se puede aprender de este acto tan valiente?'}
           p={'La valentía siempre va acompañado de hacer lo que es correcto en momentos dificultosos. El sentido de justicia Que todos debemos de tener y que no importa lo que pase, no salimos de nuestros principios. Si hacemos lo que es correcto siempre sin importar las condiciones de seguro muchas recompensas se recibe Esther logró muchas cosas, su primo fue primer ministro, y junto recibieron más autoridad y riquezas en el imperio persa, de la misma forma no duden que si hacen lo que es correcto siempre recompensas tendrán'}
           />
-
+          <AdsterraAd/>
           </article>
       </main>
       
