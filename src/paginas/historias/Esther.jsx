@@ -6,7 +6,7 @@ import { Nav } from '../../assets/Nav/Nav';
 import EstherIMG from '../../img/historias/Esther/EstherONE.webp';
 import { Footer } from '../../index/indices';
 import AdIframe from '../../publicidad/AdScript';
-import AdsterraAd from '../../publicidad/baner';
+import AdsterraAd from '../../publicidad/Baner';
 
 export const Esther = () => {
   return (
