@@ -6,6 +6,7 @@ import './carrusel.css';
 import Imagen from '../../img/index/reyes-israel.webp';
 import Imgportada from '../../img/historias/portada.jpeg';
 import ElihúIMG from '../../img/historias/Elihú/1.jpeg';
+import LaisIMG from '../../img/historias/lais/1.PNG'
 
 import EstherONE from '../../img/historias/Esther/Esther.jpeg'
 import SamaritanoIMG from '../../img/historias/Elbuensamaritano/1.webp';
@@ -32,10 +33,51 @@ export const HistoriasB = ({ img }) => {
           parrafo={'Elihú Un Joven que Defendió a Dios'}
           historys={'/Elihú'}
         />
+        <Iten
+          img={LaisIMG}
+          titulo={'Los habitantes de lais'}
+          parrafo={'No seamos Como los ciudadanos de Lais'}
+          historys={'/Lais'}
+        />
       </div>
     </div>
   );
 };
+export const DesarrolloP = ({ img }) => {
+  return (
+    <div className="carousel">
+      <h2>Historias Biblicas</h2>
+      <div className="carousel-container">
+        <Iten
+          img={EstherONE}
+          titulo={'Esther'}
+          parrafo={'La historia de una reina que salvó su pueblo'}
+          historys={'/Esther'}
+        />
+        <Iten
+          img={SamaritanoIMG}
+          titulo={'El buen samaritano'}
+          parrafo={'Una historia para reflexionar'}
+          historys={'/Elbuensamaritano'}
+        />
+        <Iten
+          img={ElihúIMG}
+          titulo={'Elihú'}
+          parrafo={'Elihú Un Joven que Defendió a Dios'}
+          historys={'/Elihú'}
+        />
+        <Iten
+          img={LaisIMG}
+          titulo={'Los habitantes de lais'}
+          parrafo={'No seamos Como los ciudadanos de Lais'}
+          historys={'/Lais'}
+        />
+      </div>
+    </div>
+  );
+};
+
+
 
 export const Header2 = ({ img }) => {
   return (
