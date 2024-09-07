@@ -6,7 +6,7 @@ import './carrusel.css';
 import Imagen from '../../img/index/reyes-israel.webp';
 import Imgportada from '../../img/historias/portada.jpeg';
 import ElihúIMG from '../../img/historias/Elihú/1.jpeg';
-import LaisIMG from '../../img/historias/lais/1.PNG'
+import LaisIMG from '../../img/historias/lais/1.png'
 
 import EstherONE from '../../img/historias/Esther/Esther.jpeg'
 import SamaritanoIMG from '../../img/historias/Elbuensamaritano/1.webp';
