@@ -5,6 +5,8 @@ import './Portada.css';
 import './carrusel.css';
 import Imagen from '../../img/index/reyes-israel.webp';
 import Imgportada from '../../img/historias/portada.jpeg';
+import ElihúIMG from '../../img/historias/Elihú/1.jpeg';
+
 import EstherONE from '../../img/historias/Esther/Esther.jpeg'
 import SamaritanoIMG from '../../img/historias/Elbuensamaritano/1.webp';
 export const HistoriasB = ({ img }) => {
@@ -20,9 +22,15 @@ export const HistoriasB = ({ img }) => {
         />
         <Iten
           img={SamaritanoIMG}
-          titulo={'Elbuensamaritano'}
-          parrafo={'La historia de una reina que salvó su pueblo'}
+          titulo={'El buen samaritano'}
+          parrafo={'Una historia para reflexionar'}
           historys={'/Elbuensamaritano'}
+        />
+        <Iten
+          img={ElihúIMG}
+          titulo={'Elihú'}
+          parrafo={'Elihú Un Joven que Defendió a Dios'}
+          historys={'/Elihú'}
         />
       </div>
     </div>

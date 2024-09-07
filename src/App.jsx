@@ -10,6 +10,7 @@ import { VidaFamiliar } from './Temas de interes/VidaFamiliar';
 import { Parejas } from './Temas de interes/Parejas';
 import { Esther } from './paginas/historias/Esther';
 import { Elbuensamaritano } from './paginas/historias/Elbuensamaritano';
+import { Elihú } from './paginas/historias/Elihú';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/Parejas' element={<Parejas />} />
         <Route path='/Esther' element={<Esther/>}/>
         <Route path='/Elbuensamaritano' element={<Elbuensamaritano/>}/>
+        <Route path='/Elihú' element={<Elihú/>}/>
       </Routes>
     </BrowserRouter>
   );
