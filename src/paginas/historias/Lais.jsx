@@ -3,11 +3,9 @@ import '../modelo.css';
 import { Link } from 'react-router-dom';
 import {  Cabeza } from '../Modelo';
 import { Nav } from '../../assets/Nav/Nav';
-import EstherIMG from '../../img/historias/Esther/EstherONE.webp';
 import LaisIMG from '../../img/historias/lais/1.png'
 import LaisIMG1 from '../../img/historias/lais/2.jpeg'
 import LaisIMG2 from '../../img/historias/lais/3.jpeg'
-import { Footer } from '../../index/indices';
 import AdIframe from '../../publicidad/AdScript';
 import AdsterraAd from '../../publicidad/Baner';
 

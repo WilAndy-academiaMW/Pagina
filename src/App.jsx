@@ -12,6 +12,9 @@ import { Esther } from './paginas/historias/Esther';
 import { Elbuensamaritano } from './paginas/historias/Elbuensamaritano';
 import { Elihú } from './paginas/historias/Elihú';
 import { Lais } from './paginas/historias/Lais';
+import { Sulamita } from './paginas/historias/Sulamita';
+
+
 
 
 function App() {
@@ -31,6 +34,9 @@ function App() {
         <Route path='/Elbuensamaritano' element={<Elbuensamaritano/>}/>
         <Route path='/Elihú' element={<Elihú/>}/>
         <Route path='/Lais' element={<Lais/>}/>
+        <Route path='/Sulamita' element={<Sulamita/>}/>
+       
+      
       </Routes>
     </BrowserRouter>
   );
