@@ -64,6 +64,7 @@ const ArticleComponent = () => {
        p={' Finalmente, comprendiendo que la Sulamita no podía ser comprada con oro ni riquezas, Salomón la dejó libre para regresar a su hogar. La joven maravillada por volver con su pastor a su amada tierra. La Sulamita no le importo las riquezas ni el ser una reina, simplemente su sencillez y amor por su pastor valió más para ella'}
       
       />
+       <AdIframe/>
       <ItemTEXT
       h1={'Enseñanza de la mujer sulamita en la biblia'}
       h3={'1 El amor verdadero es incondicional: '}
