@@ -13,7 +13,7 @@ export const Autodisciplina = () => {
     <>
      <Helmet>
         <title>Autodisciplina</title>
-        <meta name="description" content="La Sulamita: Un símbolo de belleza y amor eterno en el Cantar de los Cantares. Descubre el significado detrás de esta enigmática figura bíblica." />
+        <meta name="description" content="La autodiciplina te ayuda en todos los ambitos de la vida, para tener una mejor salud, un emprendieminto, una superacion personal. por eso en este articulos veremos como podremos lograr disciplina" />
       </Helmet>
       <Nav />
       <Cabeza img={DiciplinaIMG} />
