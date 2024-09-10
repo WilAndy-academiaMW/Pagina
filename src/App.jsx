@@ -14,6 +14,7 @@ import { Elihú } from './paginas/historias/Elihú';
 import { Lais } from './paginas/historias/Lais';
 import { Sulamita } from './paginas/historias/Sulamita';
 import { Autodisciplina } from './paginas/Desarrollo/Autodisciplina';
+import { Paz } from './paginas/Desarrollo/paz';
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route path='/Lais' element={<Lais/>}/>
         <Route path='/Sulamita' element={<Sulamita/>}/>
         <Route path='/Autodisciplina' element={<Autodisciplina/>}/>
+        <Route path='/Paz' element={<Paz/>}/>
        
       
       </Routes>

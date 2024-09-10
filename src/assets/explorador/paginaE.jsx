@@ -2,7 +2,7 @@ import '../Historias/carrusel.css';
 import '../Historias/Portada.css';
 import DiciplinaIMG from '../../img/Desarrollo personal/disciplina/autodisciplina.webp' 
 import { Link } from 'react-router-dom';
-
+import PazIMG from '../../img/Desarrollo personal/disciplina/paz mental.webp' 
 
 export const DesarrolloP = ({ img }) => {
     return (
@@ -14,6 +14,12 @@ export const DesarrolloP = ({ img }) => {
             titulo={'Autodisciplina'}
             parrafo={'Autodisciplina: La clave del éxito'}
             historys={'/Autodisciplina'}
+          />
+           <Iten
+           img={PazIMG}
+            titulo={'Paz mental'}
+            parrafo={'Paz mental:la felicidad que proviene de la tranquilidad'}
+            historys={'/Paz'}
           />
          
         </div>

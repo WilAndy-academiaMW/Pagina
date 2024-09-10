@@ -56,19 +56,23 @@ export const Aticle =()=>{
         <>
         <section className="features">
         <div className="feature">
-        <div className="feature-icon"><Link to='/Historia'>📜</Link></div>
+        <div className="feature-icon">📜</div>
         <h3>Historias Biblicas</h3>
         <p>Muchas historia que nos invitan a imitar lo que hicieron los siervos de dios del pasado</p>
+        <Link className='links' to='/Historia'>Ver mas</Link>
         </div>
+
         <div className="feature">
-            <div class="feature-icon"><Link to="/Explorador">🚀</Link></div>
+            <div class="feature-icon">🚀</div>
             <h3>Desarrollo Personal</h3>
             <p>Adsorviendo todo el conocimiento posible para nuestro desarrollo como persona</p>
+            <Link className='links' to="/Explorador">Ver mas</Link>
         </div>
         <div className="feature">
-            <div class="feature-icon"><Link to="/Adivinanza">🧩</Link></div>
+            <div class="feature-icon">🧩</div>
             <h3>Juegos dinamicos</h3>
-            <p>diviertete con juegos interactivos donde aumentaras tu conocimiento</p>     
+            <p>diviertete con juegos interactivos donde aumentaras tu conocimiento</p>
+            <Link className='links' to="/Adivinanza">Ver mas</Link>     
         </div>
     </section>
         </>

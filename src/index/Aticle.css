@@ -11,6 +11,26 @@
 link{
     cursor: pointer;
 }
+.links{
+    width: 50%;
+    margin: auto;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #f75151, #301830); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif; /* Fuente llamativa */
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #fff; /* Color del texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.7);  
+margin-top: 20px;
+}
+.links button{
+    width: 50%;
+    height: 100%;
+}
 .feature {
     max-width: 300px;
     height: 100%;
@@ -53,6 +73,12 @@ link{
         border-radius: 10px;
        
     }
+    .links{
+        width: 50%;
+        margin: auto;
+        height: 90px;
+    }
+
     .feature-icon {
         font-size: 42px;
       
@@ -79,6 +105,11 @@ link{
         padding: 30px;
         border-radius: 10px;
     }
+    .links{
+        width: 45%;
+        margin: auto;
+        height: 80px;
+    }
     .feature-icon {
         font-size: 35px;
     }
@@ -100,6 +131,12 @@ link{
         height: 600px;
         flex-direction: column;
     }
+    .links{
+        width: 30%;
+        margin: auto;
+        height: 30px;
+        font-size: 10px;
+    }
     .feature {
         margin-top: 0;
         padding: 0;
@@ -115,6 +152,7 @@ link{
     }
     .feature h3{
         font-size: 16px;
+        margin-bottom: 0px;
     }
     .feature p {
         font-size: 9px;
