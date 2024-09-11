@@ -8,6 +8,7 @@ import Imgportada from '../../img/historias/portada.jpeg';
 import ElihúIMG from '../../img/historias/Elihú/1.jpeg';
 import LaisIMG from '../../img/historias/lais/1.png'
 import Sulamita from '../../img/historias/La sulamita/1.webp'
+import josue from '../../img/historias/josue.webp'
 import EstherONE from '../../img/historias/Esther/Esther.jpeg'
 import SamaritanoIMG from '../../img/historias/Elbuensamaritano/1.webp';
 export const HistoriasB = ({ img }) => {
@@ -44,6 +45,12 @@ export const HistoriasB = ({ img }) => {
           titulo={'la sulamita '}
           parrafo={'El cantar de los cantares'}
           historys={'/Sulamita'}
+        />
+        <Iten
+          img={josue}
+          titulo={'Josué'}
+          parrafo={'El valiente líder que conquistó la Tierra Prometida'}
+          historys={'/Josue'}
         />
       </div>
     </div>

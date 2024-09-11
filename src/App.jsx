@@ -15,6 +15,7 @@ import { Lais } from './paginas/historias/Lais';
 import { Sulamita } from './paginas/historias/Sulamita';
 import { Autodisciplina } from './paginas/Desarrollo/Autodisciplina';
 import { Paz } from './paginas/Desarrollo/paz';
+import { Josue } from './paginas/historias/Josue';
 
 
 
@@ -39,6 +40,7 @@ function App() {
         <Route path='/Sulamita' element={<Sulamita/>}/>
         <Route path='/Autodisciplina' element={<Autodisciplina/>}/>
         <Route path='/Paz' element={<Paz/>}/>
+        <Route path='/Josue' element={<Josue/>}/>
        
       
       </Routes>
