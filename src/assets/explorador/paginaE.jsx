@@ -3,6 +3,7 @@ import '../Historias/Portada.css';
 import DiciplinaIMG from '../../img/Desarrollo personal/disciplina/autodisciplina.webp' 
 import { Link } from 'react-router-dom';
 import PazIMG from '../../img/Desarrollo personal/disciplina/paz mental.webp' 
+import Salmo1 from '../../img/Desarrollo personal/salmos/1.png' 
 
 export const DesarrolloP = ({ img }) => {
     return (
@@ -20,6 +21,12 @@ export const DesarrolloP = ({ img }) => {
             titulo={'Paz mental'}
             parrafo={'Paz mental:la felicidad que proviene de la tranquilidad'}
             historys={'/Paz'}
+          />
+           <Iten
+           img={Salmo1}
+            titulo={'Salmo 1'}
+            parrafo={' la felicidad de los consejos'}
+            historys={'/Salmo1'}
           />
          
         </div>
