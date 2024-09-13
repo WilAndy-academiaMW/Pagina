@@ -12,7 +12,7 @@ export const Salmo1 = () => {
     <>
      <Helmet>
         <title>Salmos 1</title>
-        <meta name="description" content="¿Buscas paz mental y una mejor salud mental? Descubre cómo los principios bíblicos pueden transformar tu vida. Explora versículos clave, consejos prácticos y testimonios reales sobre cómo encontrar tranquilidad interior y superar la ansiedad y la depresión. Aprende a cultivar una relación más profunda con Dios y a encontrar el significado en tiempos difíciles. ¡Descubre el poder de la Palabra de Dios para tu bienestar emocional!" />
+        <meta name="description" content="Veamos que aprendemos del salmos 1" />
       </Helmet>
       <Nav />
       <Cabeza img={salmoIMG} />

@@ -4,6 +4,7 @@ import DiciplinaIMG from '../../img/Desarrollo personal/disciplina/autodisciplin
 import { Link } from 'react-router-dom';
 import PazIMG from '../../img/Desarrollo personal/disciplina/paz mental.webp' 
 import Salmo1 from '../../img/Desarrollo personal/salmos/1.png' 
+import joven from '../../img/Desarrollo personal/joven.jpeg'
 
 export const DesarrolloP = ({ img }) => {
     return (
@@ -28,6 +29,13 @@ export const DesarrolloP = ({ img }) => {
             parrafo={' la felicidad de los consejos'}
             historys={'/Salmo1'}
           />
+           <Iten
+           img={joven}
+            titulo={'El joven insensato del proverbios'}
+            parrafo={'La muerte detrás de una seducción'}
+            historys={'/Joven'}
+          />
+         
          
         </div>
       </div>
