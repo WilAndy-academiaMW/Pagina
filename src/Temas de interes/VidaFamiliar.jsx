@@ -9,7 +9,7 @@ export const VidaFamiliar = () => {
     <Nav/>
     <Encabezado
       ImgH={Portada}
-      TituloH={'Cosas que aprendemos hablame rata todo bien'}
+     
       ParrafoH={'te quiero enseñar mis estudio para que compartamos mas nuestra experiencia'}
     />    
       <div style={{maxWidth:'1200px',margin:'auto', display:'flex', alignItems:'center', justifyContent:'center', height:'500px'}}>

@@ -3,6 +3,7 @@ import '../Historias/Portada.css';
 import DiciplinaIMG from '../../img/Desarrollo personal/disciplina/autodisciplina.webp' 
 import { Link } from 'react-router-dom';
 import PazIMG from '../../img/Desarrollo personal/disciplina/paz mental.webp' 
+import DiscernimientoIMG from '../../img/Elexplorador/discernimiento.webp'
 import Salmo1 from '../../img/Desarrollo personal/salmos/1.png' 
 import joven from '../../img/Desarrollo personal/joven.jpeg'
 
@@ -35,6 +36,13 @@ export const DesarrolloP = ({ img }) => {
             parrafo={'La muerte detrás de una seducción'}
             historys={'/Joven'}
           />
+          <Iten
+           img={DiscernimientoIMG}
+            titulo={'El Discernimiento'}
+            parrafo={'"El arte de discernir: Tu brújula en un mundo de opciones"'}
+            historys={'/Discernimiento'}
+          />
+         
          
          
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from './Nav/Nav'
-import { Articulos, Aticle, Desarrollop, Enseñanza, Footer, Intere, RedesS, Seccion } from '../index/indices'
+import { Aticle,  Enseñanza, Footer, Intere, RedesS,} from '../index/indices'
 import { Encabezado } from '../El saber/elSaber'
 import hieder from '../img/elsaber/Encabezado.jpg'
 
