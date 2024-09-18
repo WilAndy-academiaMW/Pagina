@@ -19,6 +19,8 @@ import { Josue } from './paginas/historias/Josue';
 import { Salmo1 } from './paginas/Desarrollo/Salmo1';
 import { JovenI } from './paginas/Desarrollo/JovenInsensato';
 import { Discernimiento } from './paginas/Desarrollo/Discernimiento';
+import { Salmo27 } from './paginas/Desarrollo/salmo27';
+import { AmistadV } from './paginas/Amigos/AmistadVerdadera';
 
 
 
@@ -47,6 +49,8 @@ function App() {
         <Route path='/Salmo1' element={<Salmo1/>}/>
         <Route path='/joven' element={<JovenI/>}/>
         <Route path='/Discernimiento' element={<Discernimiento/>}/>
+        <Route path='/Salmo27' element={<Salmo27/>}/>
+        <Route path='/AmistadV' element={<AmistadV/>}/>
        
       
       </Routes>

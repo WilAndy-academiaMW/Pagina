@@ -1,48 +1,78 @@
-.mentalidad{
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
     max-width: 1200px;
-    height: 700px;
-    
-    margin: 50px auto;
-}
-.mente-title{
-    width: 100%;
-    height: 30%;
+    height: auto;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content:center ;
     flex-direction: column;
-    font-family:"New Amsterdam", sans-serif;
-}
-.mente-title h3{
-    font-size: 20px;
-    color: red;
-}
-
-.mente-tema{
+    gap: 20px;
+  }
+  
+  .box {
+    padding: 20px;
+    
+    border-radius: 8px;
+  }
+  
+  .box1 h3, .box1 h1 {
+    font-family: 'Impact', sans-serif;
+  color: #f0f0f0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  }
+  
+  .box2 {
     display: flex;
-    height: 70%;
+    flex-direction: column;
+  }
+  
+  .box2-child {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .image img {
     width: 100%;
-}
-.mente-tema .mente-img{
-    width: 50%;
-    height: 100%;
+    height: 500px;
+    margin: auto;
+    border-radius: 8px;
+  }
+  
+  .text {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.mente-tema .mente-img img{
-    width: 70%;
-    height: 100%;
-}
-.mente-text{
-    width: 40%;
-    height: 100%;
-}
-.mente-text p{
+    flex-direction: column;
+    
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
     color: white;
-}
-.mente-text button{
-    border-radius: 20px;
-    background-color: yellow;
-    margin-top: 20px;    
-}
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+   
+  }
+  a{
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (min-width: 768px) {
+    .box2 {
+      flex-direction: row;
+    }
+  }
+  

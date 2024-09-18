@@ -171,27 +171,25 @@ export const Enseñanza =()=>{
 }
 export const Mente =()=>{
     return(
-        <div className="mentalidad">
-            <div className="mente-title">
-                <h3>La mente de un discernidor</h3>
-                <h1 style={{color:'white'}}>Libro inspirado en proverbios <b style={{color:'orange'}}>para tener discernimeinto</b> </h1>
-            </div>
-            <div className="mente-tema">
-                <div className="mente-img"><img src={Libro} alt="" /></div>
-                <div className="mente-text">
-                    <p> 
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at qui repudiandae vitae sed eum dicta, officia amet suscipit vel. Voluptas earum reprehenderit dolorem rem, ullam exercitationem neque? Quae, cumque?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at qui repudiandae vitae sed eum dicta, officia amet suscipit vel. Voluptas earum reprehenderit dolorem rem, ullam exercitationem neque? Quae, cumque?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at qui repudiandae vitae sed eum dicta, officia amet suscipit vel. Voluptas earum reprehenderit dolorem rem, ullam exercitationem neque? Quae, cumque?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at qui repudiandae vitae sed eum dicta, officia amet suscipit vel. Voluptas earum reprehenderit dolorem rem, ullam exercitationem neque? Quae, cumque?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at qui repudiandae vitae sed eum dicta, officia amet suscipit vel. Voluptas earum reprehenderit dolorem rem, ullam exercitationem neque? Quae, cumque?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at qui repudiandae vitae sed eum dicta, officia amet suscipit vel. Voluptas earum reprehenderit dolorem rem, ullam exercitationem neque? Quae, cumque?      
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit at qui repudiandae vitae sed eum dicta, officia amet suscipit vel. Voluptas earum reprehenderit dolorem rem, ullam exercitationem neque? Quae, cumque?       
-                    </p>
-                    <button>ver en amazon</button>
-                </div>
-            </div>
+      <div className="container">
+      <div className="box box1">
+        <h3>Un libro que deja reflexiones</h3>
+        <h1>La mente de un discernidor</h1>
+      </div>
+      <div className="box box2">
+        <div className="box2-child image">
+          <img src={Libro} alt="Descripción de la imagen" />
         </div>
+        <div className="box2-child text">
+          <p> Inspirado en los antiguos proverbios, este libro narra una historia sorprendente y llena de sabiduría. El protagonista, tras regresar de un largo viaje, se encuentra con viejas amistades en su camino a casa. Cada encuentro revela historias de éxito y prosperidad, alcanzadas gracias a una virtud esencial: el discernimiento. A través de estas reuniones, se desvela cómo esta cualidad fue la clave para superar desafíos y alcanzar la verdadera prosperidad.
+          </p>
+         <button><a href='https://pay.hotmart.com/F95560426H'>Comprar</a></button> 
+        </div>
+      </div>
+  
+    </div>
+        
+                      
     )
 }
 export const Footer =()=>{

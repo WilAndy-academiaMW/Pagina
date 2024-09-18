@@ -6,6 +6,7 @@ import PazIMG from '../../img/Desarrollo personal/disciplina/paz mental.webp'
 import DiscernimientoIMG from '../../img/Elexplorador/discernimiento.webp'
 import Salmo1 from '../../img/Desarrollo personal/salmos/1.png' 
 import joven from '../../img/Desarrollo personal/joven.jpeg'
+import Salmo27 from '../../img/Elexplorador/Salmo27.webp'
 
 export const DesarrolloP = ({ img }) => {
     return (
@@ -42,6 +43,12 @@ export const DesarrolloP = ({ img }) => {
             parrafo={'"El arte de discernir: Tu brújula en un mundo de opciones"'}
             historys={'/Discernimiento'}
           />
+         <Iten
+           img={Salmo27}
+            titulo={'Salmo 27'}
+            parrafo={'Un refugio de ezperanza'}
+            historys={'/Salmo27'}
+          />
          
          
          
@@ -50,10 +57,7 @@ export const DesarrolloP = ({ img }) => {
     );
   };
   
-  
-  
-  
-  
+
   const Iten = ({ img, titulo, parrafo, historys }) => {
     return (
       <div className="carousel-item">
