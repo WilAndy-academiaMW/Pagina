@@ -6,7 +6,7 @@ import PazIMG from '../../img/Desarrollo personal/disciplina/paz mental.webp'
 import DiscernimientoIMG from '../../img/Elexplorador/discernimiento.webp'
 import Salmo1 from '../../img/Desarrollo personal/salmos/1.png' 
 import joven from '../../img/Desarrollo personal/joven.jpeg'
-import Salmo27 from '../../img/Elexplorador/Salmo27.webp'
+import Salmo27 from '../../img/Elexplorador/salmo27.webp'
 
 export const DesarrolloP = ({ img }) => {
     return (
