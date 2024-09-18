@@ -11,8 +11,7 @@ export const Amigos = ({ img }) => {
     <Encabezado
       ImgH={Portada}
       TituloH={'Amigos'}
-      ParrafoH={'nos dedicamos a explorar y compartir los principios fundamentales que fortalecen las relaciones humanas desde una perspectiva bíblica. Aquí encontrarás una amplia variedad de artículos que abordan temas como la amistad verdadera, el amor desinteresado, la fidelidad, la honestidad y el perdón. Nuestro objetivo es proporcionar contenido enriquecedor que te ayude a cultivar relaciones más auténticas y satisfactorias. Descubre cómo los valores bíblicos pueden transformar tus amistades y llevarlas a un nivel más profundo y significativo. Desde consejos prácticos para mejorar la comunicación y la confianza, hasta reflexiones sobre la importancia del perdón y la honestidad, nuestros artículos están diseñados para inspirarte y guiarte en tu camino hacia relaciones más fuertes y duraderas.'}
-    /> 
+      ParrafoH={'Los mejores amigos provienen de los que siguen los principios de la biblia'} /> 
     
     <div className="carousel">
       <h2>Amigos</h2>
