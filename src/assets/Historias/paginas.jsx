@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom'; // Importa Link
 import './Portada.css';
 import './carrusel.css';
 import Imagen from '../../img/index/reyes-israel.webp';
-import Imgportada from '../../img/historias/portada.jpeg';
+
 import ElihúIMG from '../../img/historias/Elihú/1.jpeg';
 import LaisIMG from '../../img/historias/lais/1.png'
 import Sulamita from '../../img/historias/La sulamita/1.webp'
 import josue from '../../img/historias/josue.webp'
+import arcangel from '../../img/historias/arcangel.webp'
 import EstherONE from '../../img/historias/Esther/Esther.jpeg'
 import SamaritanoIMG from '../../img/historias/Elbuensamaritano/1.webp';
 export const HistoriasB = ({ img }) => {
@@ -51,6 +52,12 @@ export const HistoriasB = ({ img }) => {
           titulo={'Josué'}
           parrafo={'El valiente líder que conquistó la Tierra Prometida'}
           historys={'/Josue'}
+        />
+        <Iten
+          img={arcangel}
+          titulo={'Arcangel Miguel'}
+          parrafo={'Un Ser Supremo y Poderoso'}
+          historys={'/ArcangelMiguel'}
         />
       </div>
     </div>

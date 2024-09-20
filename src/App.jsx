@@ -21,6 +21,7 @@ import { JovenI } from './paginas/Desarrollo/JovenInsensato';
 import { Discernimiento } from './paginas/Desarrollo/Discernimiento';
 import { Salmo27 } from './paginas/Desarrollo/salmo27';
 import { AmistadV } from './paginas/Amigos/AmistadVerdadera';
+import { Arcangel } from './paginas/historias/Arcangel';
 
 
 
@@ -51,6 +52,7 @@ function App() {
         <Route path='/Discernimiento' element={<Discernimiento/>}/>
         <Route path='/Salmo27' element={<Salmo27/>}/>
         <Route path='/AmistadV' element={<AmistadV/>}/>
+        <Route path='/ArcangelMiguel' element={<Arcangel/>}/>
        
       
       </Routes>
